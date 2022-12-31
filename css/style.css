@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500&family=Roboto:wght@400;700&display=swap');
+/***
+*====================================================================================================================================
+* Name        : Harshadkumar Patel
+* Student no  : N01481887
+* Course      : IXD Studio 1 IXD5105
+*========================================================== Index====================================================================
+* 1. defult Body style 
+* 2. logo style
+* 3. Header style
+* 4. Main navigation style
+* 5. Section one style
+* 6. Section two style
+* 7. Section three style
+* 8. Section four style
+* 9. Section five style
+* 10. Footer style
+* ====================================================================================================================================
+*/
+
+/*1. defualt body style*/
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+/* 2. logo style */
+.logo {
+    position: absolute;
+    width: 235px;
+    height: 65px;
+    left: 37px;
+    top: 23.57px;
+}
+
+/* 3. Header style*/
+.header-navigation {
+    margin-top: 18px;
+}
+
+.header-navigation ul li {
+    display: inline;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+
+}
+
+.header-navigation ul li a {
+    text-decoration: none;
+    margin-right: 1em;
+    padding: 20px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+/* 4. Main navigation style*/
+.main-navigation {
+    margin-top: 15px;
+    background-color: #004B78;
+    height: 50px;
+}
+
+.main-navigation ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.main-navigation ul li a {
+    text-decoration: none;
+    padding: 11px;
+    color: #FFFFFF;
+}
+
+/* Section 1 style*/
+.section1 {
+    width: 100%;
+    height: 518px;
+    margin-top: 20px;
+}
+
+#section1 {
+    background-image: linear-gradient(to right, rgba(14, 20, 25, 1), rgba(14, 20, 25, 0.80), rgba(14, 20, 25, 0.20), rgba(14, 20, 25, 0.2)), url(../images/heroimage.jpg);
+    height: 518px;
+    width: 100%;
+}
+
+.path {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-left: 67px;
+}
+
+.hello {
+    margin-left: 98px;
+    margin-top: 120px;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.description {
+    margin-left: 98px;
+    margin-top: 25px;
+    margin-right: 951px;
+    color: #FFFFFF;
+}
+
+.Readmore {
+    margin-left: 98px;
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.about {
+    margin: 2em;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-desc {
+    margin: 10em;
+    margin-top: -13px;
+    line-height: 27px;
+}
+
+h3.readbtn {
+    margin-left: 158px;
+    margin-top: -152px;
+    color: blue;
+    font-weight: 400;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.highlight {
+    margin-left: 158px;
+    margin-top: 29px;
+    font-weight: 600;
+
+}
+
+/* Section 2 style*/
+#section-2-flex {
+    display: flex;
+}
+
+div#section-2-flex {
+    margin: 10em;
+    margin-top: -4px;
+    column-gap: 3em;
+    margin-top: -4px;
+}
+
+.highImge {
+    width: 272px;
+    height: 190px;
+}
+
+h2.section2title {
+    font-size: medium;
+    font-weight: 600;
+    color: #313131;
+}
+
+p.highpara {
+    color: #616161;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+p.details {
+    margin: 46px;
+}
+
+/* Section 3 style*/
+#section-3 {
+    background-color: #004B78;
+    color: #FFFFFF;
+    margin-top: -126px;
+}
+
+.ourstudent {
+    margin: 2em;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+}
+
+
+.our-desc {
+    margin: 10em;
+    margin-top: -27px;
+    font-size: unset;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#section-3-flex {
+    display: flex;
+}
+
+div#section-3-flex {
+    margin: 6em;
+    margin-top: -112px;
+    color: black;
+    padding: 10px;
+}
+
+.subsection {
+    background-color: #FFFFFF;
+    margin-top: -25px;
+    height: 150px;
+}
+
+.student {
+    width: 262px;
+    height: 373px;
+}
+
+h2.title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 19px;
+    padding: 19px;
+}
+
+.studentDesc {
+    color: #616161;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding: 9px;
+    margin-left: 11.8px;
+    margin-top: -26px;
+    font-weight: 400;
+}
+
+.viewMore {
+    text-align: center;
+    text-align: center;
+    margin-top: -106px;
+    font-family: 'Roboto';
+    font-size: medium;
+    font-weight: normal;
+    padding: 32px;
+}
+
+/*Section 4 style*/
+.ourEexpert {
+    margin: 2em;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: #313131;
+    font-weight: bold;
+}
+
+.our-Eex-desc {
+    margin: 10em;
+    margin-top: -27px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    margin-bottom: 166px;
+}
+
+h2.proTitle {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #313131;
+}
+
+#slider-container {
+    display: flex;
+}
+
+div#slider-container {
+    margin: 10em;
+    margin-top: -126px;
+    column-gap: 5em;
+}
+
+.slider {
+    text-align: center;
+}
+
+p.details {
+    margin: 46px;
+    font-size: 14px;
+    margin-top: -11px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.teacherAll {
+    color: #004B78;
+
+}
+
+.viewTeacher {
+    text-align: center;
+    margin-top: -200px;
+    padding: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+/* Section 5 style*/
+section#section-5 {
+    background-color: #CC9900;
+}
+
+.testimonial {
+    margin: 2em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+div.inner {
+    display: flex;
+    background-color: #004B78;
+    color: #FFFFFF;
+    font-size: small;
+    font-weight: 400;
+    margin-top: -10px;
+    width: 397px;
+    height: 60px;
+    column-gap: 2em;
+}
+
+div#section-5-flex {
+    display: flex;
+    margin: 1em;
+    column-gap: 3em;
+    margin-top: -33px;
+    padding: 57px;
+}
+
+.box {
+    background-color: #FFFFFF;
+    height: 255px;
+    margin: 10px;
+    padding: 10px;
+    width: 387px;
+}
+
+h2.name {
+    margin-right: 0px;
+    font-size: smaller;
+    /* padding: 3px; */
+    margin-left: -10px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 17px;
+    color: #FFFFFF;
+}
+
+h4.occup {
+    margin-left: -105px;
+    margin-top: 38px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+}
+
+p.testdesc {
+    margin-top: 50px;
+    padding: 10px;
+    font-family: 'Roboto';
+    margin-left: 37px;
+    font-style: italic;
+    color: #313131;
+    font-size: 14px;
+}
+
+img.profileImg {
+    float: left;
+    margin-left: -40px;
+    margin-top: -17px;
+    width: 113.2px;
+    height: 113.2px;
+}
+
+.rating-star {
+    filter: yellow;
+    width: 20px;
+    height: 15px;
+    text-align: center;
+}
+
+.rating-star3 {
+    filter: yellow;
+    width: 20px;
+    height: 15px;
+    margin-top: 38px;
+    text-align: center;
+
+}
+
+.rating {
+    position: absolute;
+    margin-left: 120px;
+}
+
+.testi {
+    text-align: center;
+    margin-top: -38px;
+    margin-bottom: 42px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/* Footer style*/
+div#footer-flex {
+    display: flex;
+    margin: 3em;
+    column-gap: 10em;
+    padding: 61px;
+}
+
+.head {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+}
+
+.uRl {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer {
+    background: #000000;
+}
